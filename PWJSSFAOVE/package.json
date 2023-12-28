@@ -1,0 +1,23 @@
+{
+	"name": "pwjssfaove",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "rimraf allure-results && playwright test",
+		"report": "npx allure generate --clean && npx allure open"
+	},
+	"keywords": [ ],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@playwright/test": "^1.40.1",
+		"@types/node": "^20.10.5",
+		"allure-commandline": "^2.25.0",
+		"allure-playwright": "^2.10.0"
+	},
+	"dependencies": {
+		"fs-extra": "^11.2.0",
+		"rimraf": "^5.0.5"
+	}
+}
