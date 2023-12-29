@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Dec 29 10:40:45 ART 2023","Fri Dec 29 10:40:53 ART 2023","7648","firefox","","","","","Oversoft Title",""
-"passed","Fri Dec 29 10:40:45 ART 2023","Fri Dec 29 10:40:54 ART 2023","9346","chromium","","","","","Oversoft Title",""
-"passed","Fri Dec 29 10:40:34 ART 2023","Fri Dec 29 10:40:45 ART 2023","10353","setup","","","","","authenticate",""
