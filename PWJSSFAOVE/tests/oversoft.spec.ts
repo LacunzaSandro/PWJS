@@ -25,7 +25,7 @@ test.afterAll('Creando reporte', async () => {
 	}
 });
 
-test('Oversoft', async ({ page }) => {
+test('Oversoft1', async ({ page }) => {
 	await page.goto('https://taller-beta.oversoftdms.net/');
 	const tbxDomain = page.getByPlaceholder('Subdominio');
 	await tbxDomain.fill("dominio");
@@ -37,3 +37,25 @@ test('Oversoft', async ({ page }) => {
 	await expect(page.locator('body')).toContainText('No se ha encontrado el subdominio');
 });
 
+test('Oversoft2', async ({ page }) => {
+	await page.goto('https://taller-beta.oversoftdms.net/');
+	const tbxDomain = page.getByPlaceholder('Subdominio');
+	await tbxDomain.fill("dominio");
+	const tbxUser = page.getByPlaceholder('Nombre de Usuario');
+	await tbxUser.fill("user");
+	const tbxPasswod = page.getByPlaceholder('Contraseña');
+	await tbxPasswod.fill("password");
+	await page.getByRole('button', { name: 'Iniciar sesión' }).click();
+	await expect(page.locator('body')).toContainText('No se ha encontrado el subdominio');
+});
+test('Oversoft3', async ({ page }) => {
+	await page.goto('https://taller-beta.oversoftdms.net/');
+	const tbxDomain = page.getByPlaceholder('Subdominio');
+	await tbxDomain.fill("dominio");
+	const tbxUser = page.getByPlaceholder('Nombre de Usuario');
+	await tbxUser.fill("user");
+	const tbxPasswod = page.getByPlaceholder('Contraseña');
+	await tbxPasswod.fill("password");
+	await page.getByRole('button', { name: 'Iniciar sesión' }).click();
+	await expect(page.locator('body')).toContainText('No se ha encontrado el subdominio');
+});
