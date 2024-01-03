@@ -29,6 +29,6 @@ test('test', async ({ page }) => {
 	await expect(page.getByRole('table')).toContainText('NuevoSintoma2');
 	await page.locator("//td[text()='NuevoSintoma2']/..//i[contains(@class,'fa fa-trash')]").click();
 	await page.locator("//div[@class='modal fade in']//button[@class='btn btn-danger modal-action-button']").click();
-	const record = await sintomasPage.validateRecord("Descripción","NuevoSintoma2")
+	const record = await sintomasPage.validateRecord("Descripción","NuevoSintoma")
 	await expect(record).toBe(false)
   });
