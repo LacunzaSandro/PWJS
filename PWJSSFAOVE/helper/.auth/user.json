@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": ".AspNetCore.Antiforgery.unAgsEw5Nhg",
-      "value": "CfDJ8G1_7DvE4QNPnL3DqiN0fJWbabFQEC-MFqjqpveKOkOZ3tV4g7NzExRO12gDuO38YCxrTvVjNSM7AVUEnGFFCd251i_t2oqIMEB2bjHEF2Fdj9xF2AnnbCQnzoS66MbrLlS0vqn-vmXF5qI06o6L91w",
+      "value": "CfDJ8G1_7DvE4QNPnL3DqiN0fJWbNxAo6Zjlm5VNWB8Sz2IS4Fk8QfLD9tHT3mh0XD9iS8maTzKtNDq9RYz9gXW0epshZAlXPYxy8PIhY-KdxphsHwwqmXy4Ti3aaWMBmyww45oxJJ8JIH09mUpR5D1rxwE",
       "domain": "taller-beta.oversoftdms.net",
       "path": "/",
       "expires": -1,
@@ -12,34 +12,44 @@
     },
     {
       "name": ".AspNetCore.Bearer",
-      "value": "CfDJ8G1_7DvE4QNPnL3DqiN0fJUMLFXCbOQu8022iTk9WTXDjXG0R3Z7zNfcjbeWGQ9tOPw_3wUkGg0vN2J4ewBOrf9yuZUYYQryt-BMyMe8RBtpy-wnL8F3QKoMBnXEeuQFHmP3bb-neA8il0oSmE3-nqGFTjg_sMXIhSde_c6O1Swkx2w7zLPCOP--F2x0QK7bv6HLpvVFTEbUsC6wqS4WlaqDuW2_kenhLSNdG_5NGlb6eD_Nb1KNbBKkeVmWLbVmWAZ1D81IslYRQmZ3T0QbGpiIWLqErS8mlDgRYcXzbtQkaTBHgvpJck7BHbZeXTQWrrH5cos2vWbTEn3P0PLwNxp9-8fAQhclxXtqeDVCPYRtfP-3cGvsdTA-c9qeou9Ssvcvsx_4OVeklrwohSH11pa9JC9e9czaXqgg9qkO78Z8QeeaLvybAUFBkTjOWgjjp3T8tYzSW8qUsVjd3qg3RTvCO7ND6JE5olIBvFBfvpl-DIBMeb6hMIYQD24Iosy2TwacOBCiHks8wHxt6n11ItYliSMAdzXxNZj9hvq7AsPtkaMbL3bcrktTELPJ0r2FzSR7HtqciM0HBFYpHKPJ0POy3YAVBHZvDeCysglch9Rfa7chCwBACG-mTy51RIJ2rpfhcONmI_Bq7p_EYn3Og5DES-rJFS71jgF_Dr10tB7sQ0j8ofxMOLfT7SGB_0-r8k0jDl141PyL4_5627RPUwb1gK5Qj9urTgJpZHMtqsDY4eEY0sp-efHUBYDGoC2JeWMW7B4hH80HTrF3VNymfI-VBZpikQTlcNnFv_Elaj2JY02FU1CkGlDMFuBdoSV0m5-wZoHCvxMV2c17rCHIgA6qZeh05VITK23oZZ7j9w1wAOGEdw8PP9hrYFqQhJ_Mtdlb0ivnfUEI9j-K8SSBEjiglN3oTYt-PZqV7hhiw8V04zZ-_56GWW-RAlA2itZvrtOfa7B6D2tanzUQcCxmLKuy7tmdYma6zSBJmjvEAmo9R9exfkqAmn4S6p0EpYMnOd-HI5_FlIKwLysl2dehWXXWpaK6apEqi93LITJn0k6QvrJ_cz94ttR4tPTa5z-OQC3E-WpG2idLEBALgpzejyQXLBZDZWlkBZe2Mdrvc_x70RJNvzDyei1iQgIcgSkTIqdK0TSbikoBZfbY8h7saTaQk2bkEairq9ylWlJjHBctbfmz4niJpgOlQDF6AdfBn-4UI3Ej7qGzHqP83OauWeVY5lq7zczhQ9dxNa_z5QTFqJ41si8pHJsJrDjivIo15NHEvabnXki8-jhiuaPtbud_OMXPYEsi8oM_wjCO4muFtBMjTkpNNncXlsgqgeXiYJtUAlwApIDIQOuCF0yftnxEA5uHsft3ugkyHm9RODlpTrTehdmYxGum7uDfrpeVhzyL_Fu8KR_c5P1EtVFwJxUrMzQQsZSzESYZknTwSAojITs9JiWqhxvh_BHBJq4FGRKrAdJvphSaQ1bfb8UIABYE3O6X6Iv7uyZ-mGbD-11Ag7II_M7YSyBBcPkWISTMBIBE-MjpPK2ti5JNg2VxoONpLHy5cBPwPEbnlCxCWcpRO9HJVZXSHtEvgUc2Ehsg2BPi5u1j-mRb0iv8vNd0b71xFfbwxFO16d36xh-lGMrfffe39do6E9bMvnh2hzDW3WmnFtsWFFQsT2Lu1mcIXdt1FWOMdG6E9eVUvi1yKs8LeAmo57go3D-uUtpiwEmzi-JSxr_Or3BWaN5SaAhOpHGHt2pds_ECoTL4kqNZw37NR5tzx6dSLVm4uNxcDk4M8nWCsTphMrAR3nsQ7YnpyRARADP9sBkuZruzOcKf0qL9tZeSFiAhlehUamYYmle2f3L7wxXXV5OCidS-V6AWqdaoAxBECSoU6YlEbGla4hhuAkA-KyRMI1Zk0r6q7MIG_nxb_jQW_vftSrZKsSZXBHdJFsFkp-MPnBdhLZVz-NknztPzbIKti6aCOxRoD0gmbVrd6KFdUNIqr0bWbDxGmspaAD4dbh0PteMW80C2sH8TUNswBF0RBavUdzdqxOyKmK6t5gOSeO26mfZEyUFevZQVprTF1j4_QplvBKJGSvSFteRmwAvJzbcwTrnzvMgWfq8IJ55_TdftK3geq2uvVRXxuqJsGBRqPUhYbj3JRWX4QpFeUtf1yf2jg1dcqxKe2JwZ9pG57RTQ29E5oyZQSte-E6kf-N0h9inIcbEod1iNOETzHraxPP5hjo1l3mYStCzf2n4FDCfNTswmzj63eu4XIODl4RjtOhacIyhzXHUkjDlpFwN_bioEA-PtE262im_UC9z0y_zd0PWob9l3O4AF2QKl55Nago8JKkTheOzuFsHax6C0kV-FwmiJGGki2D-nARek4qUCVfqrOKacyvQoyQRfhXy8GqpQVfEiVFAqBCT4_PnN69BBTnPb2aEsB2EDQ1qWYhVqj4LMguO2ECRcjfWohLYwnxavjalfpWcC1Grq9ZvtoSAQENFufLE6jsAuMOMk-FWv5HSqC1ijYMELecodBIuYgDrIOS9_oavuLNWpa0T8G3Iv4WoOqoqrcbpkjYrnprQyEYJp7PI6uZ1vJDjXikDsjAcmgOFKjZN15BbRuAkeBFPY7PIrHCVxjy1dR48qLQKXJxCkKj0_yOSeq1ByZxnJiqocHhKViPjqQv8cpDa8Atz6XzqM5EibNjtZu3yCFupuHi0qNhpB_3hqcwi-Byrye8YhQ3hi6X1-lQq3wQ76H1QPSsf-yVtitY2oqX_4CpisCQ1Fu5nJsNez49uPFtl9M5ymRn2QZqTuREnJvI3LlAO4arLx21QFfmzkgr0DIAE1jaLmRZDZr0xplPV1Kw3dfa_cyqoZyhVHai3RScD6nznc7uspzYJ9g9O9EtsrV4LPQFt-TanFCujsH3dnO4Kf-KTHoyTzBpb6I8iT0mEL5DD1knGTKdDGUBs4UEINhnVJE0rCkR0EBbwVHg_jpBETxOr2DrowOEItX6Kt1wooGNuayQ5FVByIsRO3hrAPDuHD9Wwhd9XgX7XOW7p3alJeHwwbRQ09K_Ri",
+      "value": "CfDJ8G1_7DvE4QNPnL3DqiN0fJWH92srjkUB2UIr-XOk-Mjj85JWN5JTzyxW5dpvTuFYJwZoJHbe3EKaDDoGuuknpL41VgdqDTiD3NEhhqvsLBr8Hz1TxiPJrNSWuYT2CPN2Iq2bWrojaxcC-XpBs5hx9UUs79gVlCYbpXZCxdsOKBjylaARghSOGkjwpiqa7jbIX9djYpgHFQfJHCmE9K9B1nx1bZUQ-tihMXcnrF3yWLKV-ijSV8EVkd7sNhMO6hovKtA9uCGIqdJAptEs9A_jYwc_AV88PlQrQa8nEnMLFl6MHPYkvFxeLWg2Rn46OYFSGvkhG7hp7XPe9016VjFVjKbAB9vhVbu9zxvillLiPyRa-MKA69adO4sjImpPksFIHF_A08bikgNAa8NxWkJS4-CwmFMzK9-pXTHrpdT_8Xf29Oewk0ITrfpToad6RIDsiLwK8ymWHFTqBcgTpMBN5EOCS_MmpEsYvOp8RC8vGqXMDi_xuESc3bwCmQJUJ0cVP6Pg2AFBWW5XnXgFZ5c7LEP8WxmruqiePRph_B4yj-75q1yJ9_mFV3clLFcSNqZMHD-DjgUUYP3TrxY0JquwKJbA_M8XRd-t9-f3Af8wfmyxURf7b1WzCAwLHDrtvH8k4_xxBLJpEPL8A24vjPmARS0hKB9hxwMdubRHgdSEuX7SMFtM5uAflVmfz9CRgYUDLUFiGlvoA5SvMkjKWiIUGXNjYg7uQ8n9WYZnTA4N7rY5kxRhElGUfmSw3la4o68SdOXvgopVbueydX9fC1QqTMG_HpNBQIA_UDJN1p7faup83iFnN2n8f0IyQMyY72nWh2Vw7Ws2yWcdoNl21GALHaMA42uSIuOeCbWlX9rPCgZ3VXN7sQjFOfQxtPe-ECIX1mxziznkRzMqpuhylfSqbMCW6ZJutCA-0Cm_ONKZUj7kWtMCdTLU0jbY6qLhdjep7nEBhyakUVozu7r_VrC-nBi9V-Lg_EKQXxgty1HLWE1sVV2ARvbxDsWlIiuB068e0_HLjQprUW4pWQgexq24HJyoMDSF7sj99wKyeCZhShz7bi2fReK_11JluRS1QYpvf59jDOi5kIVYlmSGcJlnv2dqOLy9wVpjdg1faP7tqLSVvtS3jTDqHVMqGVCHUiQYlGtZXLunKYL6ZRCfmg5apLd6fHeLVKp-WLB850GCGmXe6INXtRwK69ruuLygbLbhf2egX8gfqlWjmKYzXUO5gTpmxD70B4_QDJrAbwPPaKd6Yf3MaETYVaiDfclW6SlihzwKaqnHaocRc02YJhMHo0KvoXA8gDvHDUD7OMc94hkTiBaEL8JwYugCby_sAopJ5gwJjRb0RMv_mhCvwmH4LnAb-4hx3AFIDO8dzW4GuqOMAPkWZIOopUHsKGwqn4yEkr5RIOlbTgSDzeNZqExz0i7NjJGEUQhg46Ux06rZP-1yxI6BTO4mHPqDYNZMIdC1KGgjELl1IkTMQIh7NAlIk1wT-qdNPvg3dwU8vphYEgktZQ0S4aUc-LC_xaMAQGQPCGfkA7QsbCM2aVpFsbNMOoUjIDPUNRibWFwClf2WJSoU08TKcx_mLwZ1fsnnGFpg-VGsPtmOIDkpa4Qjja_q2Uk6KXCnd_QEEL3-xUgPM6if58bMtsPfqNLQg5ApHi7GYgBg5lR_sblyvrfQOP3DRSiJTcdADhJJI_zNOXLo6Dw6zLHI9ejNk7SViD_6qB9Gmw8IKc5bsMkk-izheJGhX3gzlmPku7bH7knLBFbd7AVldezThH21M_BMLwlmRJOyIT608eEThBvNVDy8R7tLX4OkKIruTp6Pm7QreCHwjSyriEDGMfT3y5mvexiovZX7UnJI9tmaVPAT-au3znyZMGekYx02uAUSLInyvX-vF4qPQPZAnvnuZjHq7L_sFBnIDPmk3n8v5ArE-9dBYSZ3CaWnyEweVNwTNEl7nAziUPCbzAo9T1LrJOYGI85PNNSRKn3HjLfCVoZMUuLYCDO5uKyqAUJFw3AxKAXHWMqF3sWui2uDXV3SaDZxP5240cCKMmayKtYNqtpWVJx-f6gGTeC3t_DtvjA_fsjhcNZ_e8R0uznBRztxGT12LRjX125KVDlXoe9cXHUlczOP0xHv4_RmREUIBhVgyl65yslL8xgeaYhuJLjm4rFF7x57LNPlvSMOOEFiYi7DmkYGUPDQoQBshvzLhIoxak5lLjvWaVXTposDcpN3fUQNQb9RXLV24qk5-6PHH4pn0kAfApqt3nnBDfJJC1ZUcaphnmANz2CnPa4fAQsWiLa1UkBjVngYDTJno8NMJOkeayPghX9iexZcIeJKW_-bbDqAAa1PFWUcGe-CdJ4li3MNpYAiqoKYtlgiuFWuNMypgbtu9thDg4S1-iVD3waPi6jRarlT5u4mDuAabey4uAVFwF-eDQXF0uhBhG3uXSR0rIwkfIrYKDK17j2I4vLkoBVRtCoTO_6zAo1DUouHpOgtwQcmXml4H-KtYxtIe5NSjMMFe54KdO07TOOnId7iojzta0JZm8BjY6g-pJHazmJ8WtIQcnyOpCpwIbEydjCtwc7NyMeDb7Q0H_hy-Z3KKV_Qwk99KBwu_-hhrIm38ojtrYyjBJ50JlK6t-DuG3DkL7xcmKOopMg8LSZLlSS-G0ZjvW3-ISmcHsg94nytzaqIhYqXmb3-doOrL1VofsWllBnd7TWm9o7P_ibV2l3CSpvpTKE7n6z5G8Fkx5wSnpyZypz8pGjx129etWCD9Lypqkth9hn6UxAYEryfNdP6wzPRnKBdWoRc3dp872XFubV8vAiwC0jI6sk3xCwbP9QJ_ez6fCjE6hLRw2FwHasmB7SRXALLSFKrST5FphED9RzYgcGWznPUCtTop-Q2Gmnj3j0rK0hCUBAmrBXM8ngdAJoyES6cPlcB7YfAPUcya3aNmorIHqQkcm11orrdi36YBMXfIJHC-DK2jsCQ_TkKr2M4wFQJ4om4SG-RIY5GKIC5QSQapMDFp3nQKZ98bjRZj-BNSobGMOw_6GYl0EDP93mcWXlVoUmF",
       "domain": "taller-beta.oversoftdms.net",
       "path": "/",
-      "expires": 1704122024.862311,
+      "expires": 1704478788.495157,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga",
-      "value": "GA1.1.1572866216.1703862825",
+      "value": "GA1.1.2093491618.1704219589",
       "domain": ".oversoftdms.net",
       "path": "/",
-      "expires": 1738422825.350348,
+      "expires": 1738779589.100716,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga_0NGC64C9DY",
-      "value": "GS1.1.1703862825.1.0.1703862825.0.0.0",
+      "value": "GS1.1.1704219589.1.0.1704219589.0.0.0",
       "domain": ".oversoftdms.net",
       "path": "/",
-      "expires": 1738422825.373063,
+      "expires": 1738779589.17348,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     }
   ],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://taller-beta.oversoftdms.net",
+      "localStorage": [
+        {
+          "name": "decimales",
+          "value": "{\"separadorMiles\":\".\",\"cantidadDecimalesPrecioUnitario\":3,\"cantidadDecimalesImporte\":2,\"cantidadDecimalesIndiceCotizacion\":3,\"cantidadDecimalesTasa\":3,\"cantidadDecimalesPorcentaje\":2,\"cantidadDecimalesCantidad\":3,\"cantidadDecimalesCantidadHora\":3,\"cantidadEnterosPrecioUnitario\":9,\"cantidadEnterosImporte\":9,\"cantidadEnterosIndiceCotizacion\":9,\"cantidadEnterosTasa\":3,\"cantidadEnterosPorcentaje\":3,\"cantidadEnterosCantidad\":9,\"cantidadEnterosCantidadHora\":9,\"separadorDecimales\":\",\"}"
+        }
+      ]
+    }
+  ]
 }
