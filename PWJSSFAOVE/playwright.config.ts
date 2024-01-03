@@ -66,15 +66,15 @@ export default defineConfig({
 			dependencies: ['setup'],
 		},
 
-		{
-			name: 'firefox',
-			use: {
-				...devices['Desktop Firefox'],
-				// Use prepared auth state.
-				storageState: './helper/.auth/user.json',
-			},
-			dependencies: ['setup'],
-		},
+		// {
+		// 	name: 'firefox',
+		// 	use: {
+		// 		...devices['Desktop Firefox'],
+		// 		// Use prepared auth state.
+		// 		storageState: './helper/.auth/user.json',
+		// 	},
+		// 	dependencies: ['setup'],
+		// },
 
 		// {
 		//   name: 'webkit',
