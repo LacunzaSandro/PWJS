@@ -1,0 +1,26 @@
+{
+	"name": "pwjscuove",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "rimraf allure-results && cucumber-js test",
+		"report": "npx allure generate --clean && npx allure open"
+	},
+	"keywords": [ ],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@cucumber/cucumber": "^10.1.0",
+		"@playwright/test": "^1.40.1",
+		"@types/node": "^20.10.6",
+		"allure-commandline": "^2.25.0",
+		"allure-cucumberjs": "^2.10.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"fs-extra": "^11.2.0",
+		"rimraf": "^5.0.5"
+	}
+}

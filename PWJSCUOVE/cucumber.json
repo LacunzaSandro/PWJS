@@ -1,0 +1,30 @@
+{
+	"default": {
+		"formatOptions": {
+			"snippetInterface": "async-await"
+		},
+		"paths": [
+			"src\\tests\\features\\login.feature"
+		],
+		"publishQuit": true,
+		"require": [
+			"allure-cucumberjs",
+			"src\\tests\\steps\\*.ts",
+			"src\\hooks\\hooks.ts"
+		],
+		"requireModule": [
+			"ts-node/register"
+		],
+		"format": [
+			"progress-bar",
+			"./src/helper/report/reporter.js"
+		],
+		"reporters": [
+			{
+				"type": "allure",
+				"outputDir": "allure-results",
+				"expand": true
+			}
+		]
+	}
+}
