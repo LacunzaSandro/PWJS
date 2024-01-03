@@ -7,7 +7,7 @@
 		"test": "rimraf allure-results && playwright test",
 		"report": "npx allure generate --clean && npx allure open"
 	},
-	"keywords": [ ],
+	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {

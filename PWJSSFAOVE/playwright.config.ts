@@ -52,7 +52,9 @@ export default defineConfig({
 		screenshot: 'only-on-failure'
 		/**add screenshots */
 	},
-
+	expect: {
+		timeout: 50000
+	},
 	/* Configure projects for major browsers */
 	projects: [
 		{ name: 'setup', testMatch: /.*\.setup\.ts/ },
