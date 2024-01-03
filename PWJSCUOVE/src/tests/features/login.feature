@@ -16,7 +16,7 @@ Feature: User Authentication tests
     When User click on the login button
     But Login should fail
 
-  Scenario Outline: Login should not be success
+  Scenario Outline: Login should not be success 2
     And User enter the username as "<username>"
     And User enter the password as "<password>"
     When User click on the login button

@@ -1,10 +1,12 @@
 {
 	"compilerOptions": {
-		"target": "esnext",
-		"module": "commonjs",
-		"strict": true,
-		"esModuleInterop": true
-	},
-	"include": [ "src/**/*.ts", "src/helper/report/reporter.js" ],
-	"exclude": [ "node_modules" ]
+		"lib": [
+			"es2021"
+		],
+		"typeRoots": [
+			"./node_modules/@types",
+			"src/helper/types"
+		],
+		"resolveJsonModule": true
+	}
 }

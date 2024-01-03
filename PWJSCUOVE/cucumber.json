@@ -25,6 +25,7 @@
 				"outputDir": "allure-results",
 				"expand": true
 			}
-		]
+		],
+		"parallel": 2
 	}
 }

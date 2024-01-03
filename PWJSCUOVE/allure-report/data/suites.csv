@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Jan 02 20:31:30 ART 2024","Tue Jan 02 20:31:39 ART 2024","9676","","Login should be success","","","","Login should be success",""
-"passed","Tue Jan 02 20:31:59 ART 2024","Tue Jan 02 20:32:09 ART 2024","9782","","Login should not be success","","","","Login should not be success",""
+"failed","Wed Jan 03 14:54:34 ART 2024","Wed Jan 03 14:55:14 ART 2024","39663","","Login should not be success","","","","Login should not be success",""
+"passed","Wed Jan 03 14:55:14 ART 2024","Wed Jan 03 14:55:58 ART 2024","44592","","Login should not be success 2","","","","Login should not be success 2",""
+"passed","Wed Jan 03 14:54:34 ART 2024","Wed Jan 03 14:55:08 ART 2024","34237","","Login should be success","","","","Login should be success",""

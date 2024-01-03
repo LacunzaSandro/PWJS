@@ -38,5 +38,5 @@ Then('Login should be success', async function () {
 
 });
 When('Login should fail', async function () {
-	await expect(fixture.page.locator('#mat-error-0')).toContainText('Username or Password is incorrect.');
+	await expect(fixture.page.locator('#mat-error-0')).toContainText('Username or Password i incorrect.');
 });
