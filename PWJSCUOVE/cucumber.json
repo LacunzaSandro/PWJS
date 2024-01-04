@@ -10,7 +10,9 @@
 		"require": [
 			"allure-cucumberjs",
 			"src\\tests\\steps\\*.ts",
+			"@playwright/test",
 			"src\\hooks\\hooks.ts"
+
 		],
 		"requireModule": [
 			"ts-node/register"
@@ -27,5 +29,7 @@
 			}
 		],
 		"parallel": 2
+
+
 	}
 }

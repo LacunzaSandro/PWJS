@@ -5,7 +5,8 @@ import { fixture } from "../../hooks/pageFixture";
 
 
 Given('User navigates to the application', async function () {
-	await fixture.page.goto("https://bookcart.azurewebsites.net");
+	await fixture.logger.info("Navigate to the aplication");
+	await fixture.page.goto(process.env.BASEURL);
 });
 
 
@@ -33,10 +34,8 @@ When('User click on the login button', async function () {
 
 Then('Login should be success', async function () {
 	const user = await fixture.page.locator("//button[contains(@class,'mat-focus-indicator mat-menu-trigger')]//span[1]").textContent();
-	console.log("Usuario: " + user);
-
-
 });
 When('Login should fail', async function () {
+	await fixture.logger.info("Validate the access fails");
 	await expect(fixture.page.locator('#mat-error-0')).toContainText('Username or Password i incorrect.');
 });
