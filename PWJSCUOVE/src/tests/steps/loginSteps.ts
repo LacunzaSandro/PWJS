@@ -1,8 +1,10 @@
 import { Given, When, Then, setDefaultTimeout } from "@cucumber/cucumber";
 import { expect } from "@playwright/test";
 import { fixture } from "../../hooks/pageFixture";
+import BookPage from "../pages/bookPage";
 
 
+const bookPage = new BookPage(fixture.page);
 
 Given('User navigates to the application', async function () {
 	await fixture.logger.info("Navigate to the aplication");
@@ -33,9 +35,10 @@ When('User click on the login button', async function () {
 });
 
 Then('Login should be success', async function () {
+	fixture.page.context().storageState({ path: "src/helper/auth/auth.json" });
 	const user = await fixture.page.locator("//button[contains(@class,'mat-focus-indicator mat-menu-trigger')]//span[1]").textContent();
 });
-When('Login should fail', async function () {
+Then('Login should fail', async function () {
 	await fixture.logger.info("Validate the access fails");
-	await expect(fixture.page.locator('#mat-error-0')).toContainText('Username or Password i incorrect.');
+	await bookPage.validateErrorMessage('Username or Password is incorrect.');
 });

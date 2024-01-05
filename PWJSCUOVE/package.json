@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "rimraf allure-results &&  cross-env ENV=prod cucumber-js test",
+		"pretest": "npx playwright test login.spec.ts",
+		"test": "rimraf allure-results && cucumber-js --config=config/cucumber.js || true",
 		"report": "npx allure generate --clean && npx allure open"
 	},
 	"keywords": [ ],

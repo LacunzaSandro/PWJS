@@ -1,13 +1,9 @@
-import * as dotenv from 'dotenv'
+import * as dotenv from 'dotenv';
 
 export const getEnv = () => {
-    if (process.env.ENV) {
-        dotenv.config({
-            override: true,
-            path: `src/helper/env/.env.${process.env.ENV}`
-        })
-    } else {
-        console.error("NO ENV PASSED!")
-    }
-
-}
+	let enviroment = process.env.npm_config_ENV || "prod";
+	dotenv.config({
+		override: true,
+		path: `src/helper/env/.env.${enviroment}`
+	});
+};

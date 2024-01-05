@@ -7,9 +7,12 @@ import { Pickle } from "@cucumber/messages";
 import { getEnv } from "../helper/env/env";
 import { createLogger } from "winston";
 import { options } from "../helper/utils/logger";
+import Assert from "./Assert";
 const path = require('path');
 const fsExtra = require('fs-extra');
 const fs = require('fs');
+
+const runCucumber = require('../helper/utils/runner');
 
 
 let browser: Browser;
@@ -21,12 +24,14 @@ setDefaultTimeout(TIME);
 
 BeforeAll(async function () {
 	getEnv();
+	await deleteDirectory("src/logs");
 	browser = await invokeBrowser();
 });
 
 Before(async function ({ pickle }) {
 	const scenarioName = pickle.name + pickle.id;
 	context = await browser.newContext({
+		storageState: 'src/helper/auth/auth.json',
 		recordVideo: {
 			dir: "allure-results/videos"
 		},
@@ -34,8 +39,22 @@ Before(async function ({ pickle }) {
 	context.setDefaultTimeout(TIME);
 	const page = await context.newPage();
 	fixture.page = page;
+	fixture.assert = new Assert(page);
 	fixture.logger = createLogger(options(scenarioName));
 });
+// Before("not @auth", async function ({ pickle }) {
+// 	const scenarioName = pickle.name + pickle.id;
+// 	context = await browser.newContext({
+// 		recordVideo: {
+// 			dir: "allure-results/videos"
+// 		},
+// 	});
+// 	context.setDefaultTimeout(TIME);
+// 	const page = await context.newPage();
+// 	fixture.page = page;
+// 	fixture.assert = new Assert(page);
+// 	fixture.logger = createLogger(options(scenarioName));
+// });
 AfterStep(async function ({ pickle, result }) {
 	await createScreenshot(this, Status.FAILED, pickle, result);
 });
@@ -46,8 +65,13 @@ After(async function ({ pickle, result }) {
 	await recordVideo(this, Status.FAILED, result);
 });
 AfterAll(async function () {
-	await browser.close();
-	await fixture.logger.close();
+	if (browser) {
+		await browser.close();
+	}
+	if (fixture.logger) {
+		await fixture.logger.close();
+	}
+
 	await globalTeardown();
 });
 
@@ -59,15 +83,11 @@ async function globalTeardown() {
 	if (fs.existsSync(carpetaOrigen)) {
 		await fsExtra.ensureDirSync(carpetaDestino);
 		await fsExtra.copySync(carpetaOrigen, carpetaDestino);
-		console.log('Carpeta copiada exitosamente.');
-	} else {
-		console.log('La carpeta de origen no existe.');
 	}
 };
 async function recordVideo(content: IWorld<any>, status: messages.TestStepResultStatus, result: messages.TestStepResult) {
 	const videoPath: string = await fixture.page.video().path();
 	if (result?.status == status) {
-		console.log(videoPath);
 		content.attach(
 			fs.readFileSync(videoPath),
 			'video/webm'
@@ -77,7 +97,6 @@ async function recordVideo(content: IWorld<any>, status: messages.TestStepResult
 	}
 }
 async function createScreenshot(content: IWorld<any>, status: messages.TestStepResultStatus, pickle: Pickle, result: messages.TestStepResult) {
-
 	let img: Buffer;
 	if (result?.status == status) {
 		img = await fixture.page.screenshot({ path: `./allure-results/screenshots/${pickle.name}.png`, type: "png" });
@@ -94,4 +113,12 @@ async function deleteVideo(videoPath: string) {
 	} catch (error) {
 		console.error(`Error al eliminar el video: ${error.message}`);
 	}
+}
+async function deleteDirectory(carpetaABorrar: string) {
+	fsExtra.remove(carpetaABorrar)
+		.then(() => {
+		})
+		.catch(err => {
+			console.error(`Error al borrar la carpeta '${carpetaABorrar}': ${err}`);
+		});
 }

@@ -1,11 +1,11 @@
 import { LaunchOptions, chromium, firefox, webkit } from "@playwright/test";
 
 const options: LaunchOptions = {
-	headless: !true,
+	headless: process.env.npm_config_HEADLESS ? JSON.parse(process.env.npm_config_HEADLESS) : false,
 };
 export const invokeBrowser = () => {
-	const browserType = process.env.BROWSER || "chrome";
-	switch (browserType) {
+	const browserType = process.env.npm_config_BROWSER || "chrome";
+	switch (browserType.toLowerCase()) {
 		case "chrome":
 			return chromium.launch(options);
 		case "firefox":
@@ -13,7 +13,8 @@ export const invokeBrowser = () => {
 		case "webkit":
 			return webkit.launch(options);
 		default:
-			throw new Error("Please set the proper browser!");
+			console.error(`\x1b[32m No existe un browser: ${browserType}, se utilizara Chrome por defecto.\x1b[0m`);
+			return chromium.launch(options);
 	}
 
 };
