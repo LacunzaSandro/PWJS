@@ -1,7 +1,9 @@
 import { LaunchOptions, chromium, firefox, webkit } from "@playwright/test";
 
+const isHeadless = process.env.npm_config_HEADLESS != undefined ? !!process.env.npm_config_HEADLESS : true;
+
 const options: LaunchOptions = {
-	headless: process.env.npm_config_HEADLESS ? JSON.parse(process.env.npm_config_HEADLESS) : false,
+	headless: isHeadless
 };
 export const invokeBrowser = () => {
 	const browserType = process.env.npm_config_BROWSER || "chrome";

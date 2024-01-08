@@ -8,7 +8,7 @@
 		"test": "rimraf allure-results && cucumber-js --config=config/cucumber.js || true",
 		"report": "npx allure generate --clean && npx allure open"
 	},
-	"keywords": [ ],
+	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
